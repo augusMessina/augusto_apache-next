@@ -1,0 +1,57 @@
+:root{
+    color-scheme: dark;
+}
+
+input{
+    width: 87%;
+    padding: 20px;
+    font-size: 20px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+input:focus{
+    padding: 30px;
+    background: white;
+    color: black;
+}
+
+button{
+    padding: 20px;
+    width: 100%;
+    font-size: 20px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: white;
+    color: black;
+}
+
+.gg-eye{
+    cursor: pointer;
+}
+
+.gg-eye-alt{
+    cursor: pointer;
+}
+
+.welcome{
+    font-size: 40px;
+}
+
+#responseMSG{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
